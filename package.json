@@ -37,7 +37,7 @@
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "@yext/pages": "^1.0.0-rc.4",
-    "@yext/studio": "0.27.0-alpha.1",
+    "@yext/studio": "https://github.com/briantstephan/studio-testing-release/raw/main/yext-studio-0.26.1.tgz",
     "autoprefixer": "^10.4.14",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-react": "^7.32.2",
