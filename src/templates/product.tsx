@@ -13,7 +13,7 @@ export const config: TemplateConfig = {
   stream: {
     $id: "product",
     localization: { locales: ["en"] },
-    fields: ["photoGallery", "name", "c_productDescription", "price", "slug"],
+    fields: ["photoGallery", "name", "price", "slug"],
     filter: { entityTypes: ["product"] },
   },
 };
@@ -39,7 +39,7 @@ export default function Product({ document }: TemplateProps) {
             weight: "Bold",
           }}
           productDescriptionProps={{
-            text: `${document.c_productDescription}`,
+            text: `Sample product description text`,
             size: "M",
             weight: "Regular",
             align: "Left",
