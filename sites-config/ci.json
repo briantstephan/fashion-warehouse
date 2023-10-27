@@ -42,6 +42,6 @@
   },
   "livePreview": {
     "serveSetupCmd": "npm run features && npm run localData",
-    "serveCmd": "npm run studio"
+    "serveCmd": "npm run features && npm run localData && npm run dev"
   }
 }
