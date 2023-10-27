@@ -9,7 +9,7 @@
     "dev": "pages dev",
     "prod": "pages prod",
     "build:local": "pages build",
-    "studio": "npm run features && npm run localData && yext pages build && npm run dev",
+    "studio": "npm run features && npm run localData && studio",
     "features": "pages generate features",
     "localData": "yext pages generate-test-data"
   },
