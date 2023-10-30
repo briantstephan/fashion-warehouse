@@ -42,6 +42,7 @@
   },
   "livePreview": {
     "serveSetupCmd": "npm run features && npm run localData",
-    "serveCmd": "npm run dev --slug=doggie-1 && echo studio"
+    "serveCmd": "npm run dev --slug=doggie-1",
+    "previewReadyRegex": "listening on.*"
   }
 }
